@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+ol {
+    margin: 0;
+    padding: 12px 0;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+   color: rgb(85, 26, 139);
+}

@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.main-container {
+    max-width: 375px;
+    text-align: center;
+    padding: 12px;
+}
+
+.main-container img {
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+
+.main-container h1 {
+    color: white;
+    font-family: "Grandiflora One", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2em;
+}
+
+.main-container h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+.main-container p {
+    color: white;
+    font-size: 0.75em;
+}
+
+dialog {
+    border: 0;
+    padding: 0;
+}
+
+dialog::backdrop {
+    background-color: black;
+}
+
+.trailer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: none;
+}
+
+.trailer-container video {
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+    outline: none;
+}
+
+.close {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 50%;
+    padding: 18px 14px;
+    cursor: pointer;
+}
+
+.close:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: transparent;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #03acb1;
+    color: white;
+}
+
+@media (min-width: 700px) {
+    .main-container {
+        max-width: 550px;
+    }
+    
+    .main-container p {
+        font-size: 1em;
+    }
+}

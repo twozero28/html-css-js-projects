@@ -17,6 +17,10 @@ ol {
     padding: 12px 0;
 }
 
+li:not(:last-child) {
+    margin-bottom: 4px;
+}
+
 
 a {
     color: white;

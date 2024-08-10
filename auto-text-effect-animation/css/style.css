@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Permanent+Marker&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: salmon;
+    height: 100vh;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
